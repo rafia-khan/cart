@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(198, 236, 235);
 }
 .container{
     width: 600px;
     height: 550px;
-    background-color: aquamarine;
+    background-color: hsl(160, 62%, 80%);
     float: left;
     box-sizing: border-box;
     margin-right: 20px;
@@ -18,15 +18,19 @@ body{
 .fixed{
     width: 450px;
     height: 450px;
-    background-color: rgb(155, 240, 240);
+    background-color: #dbe6e5;
     box-sizing: border-box;
-        box-shadow: 4px 5px 15px black;
+        box-shadow: 4px 5px 15px rgb(126, 197, 221);
         float: left;
 }
 .h1{
     text-align: center;
     padding: 10px;
-    color: rgb(20, 52, 230);
+    color: rgb(9, 97, 238);
+}
+.h1:hover{
+    background-color: rgb(169, 235, 235);
+    color: #000;
 }
 .img{
     width: 150px;
@@ -61,8 +65,8 @@ h3{
  .icon{
     font-size: 1.1rem;
     cursor: pointer;
-    transition: background 0.5s ;
-    padding: 5px;
+    transition:background 0.5s ;
+    padding: 15px;
     margin-left: 2px;
     margin-right: 2px;
     
