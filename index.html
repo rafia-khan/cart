@@ -19,11 +19,11 @@
               <div class="card-title">
                     <h3>Women_Dress</h3>
                     <h3>Size : 6'</h3>
-                    <h3 class="price">Price : 200tk</h3>
-                     <i class="fa fa-plus icon" onclick="increament()"></i>
+                    <h3 class="price">Price : Tk <span id="price" >200</span></h3>
+                     <i class="fa fa-plus icon" onclick="increament('count', 'price', 'item')"></i>
                      <input class="input" type="button" id="count" value="0">
-                    <i class="fa fa-minus icon" onclick="decreament()"></i>
-                    <span class="item">Your Items Tk00</span>
+                    <i class="fa fa-minus icon" onclick="decreament('count', 'price', 'item')"></i>
+                    <span class="item">Your Items tk <span id="item" >00</span></span>
                  </div>
                  
           </div>
@@ -38,11 +38,11 @@
             <div class="card-title">
                 <h3>Baby_Dress</h3>
                 <h3>Size : 6'</h3>
-                <h3 class="price">Price : 200tk</h3>
-                <i class="fa fa-plus icon"></i>
-                <input class="input" type="button" value="0">
-                <i class="fa fa-minus icon"></i>
-                <span class="item">Your Items Tk00</span>
+                <h3 class="price">Price : Tk <span id="price1" >600</span></h3>
+                <i class="fa fa-plus icon" onclick="increament('count1', 'price1', 'item1')"></i>
+                <input class="input" type="button" id="count1" value="0">
+                <i class="fa fa-minus icon" onclick="decreament('count1', 'price1', 'item1')"></i>
+                <span class="item">Your Items Tk <span id="item1" >00</span></span>
             </div>
         
         </div>
@@ -54,7 +54,7 @@
 
     <div class="fixed">
         <h1 class="total">The total Amount</h1>
-        <h4>Product Amount : 50Tk</h4>
+        <h4>Product Amount : tk <span id="pro_amount">00</span></h4>
         <h4>Delivery charge : 20Tk</h4>
         -------------------------------------------------------------------------
         <h4>Total product Amount : tk 00</h4>
