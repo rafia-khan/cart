@@ -8,7 +8,7 @@ body{
 }
 .container{
     width: 600px;
-    height: 500px;
+    height: 550px;
     background-color: aquamarine;
     float: left;
     box-sizing: border-box;
@@ -83,4 +83,51 @@ h3{
 }
  .item{
     font-size: 1.4rem;
+}
+.clear{
+    clear: both;
+}
+.hr-style{
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.total{
+    text-align: center;
+    color: rgb(18, 19, 19);
+    margin-top: 10px;
+    
+}
+h4{
+    padding: 20px;
+}
+.coupon{
+    color: rgb(235, 6, 132);
+    text-align: center;
+}
+.coupon-name{
+    color: blue;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.coupon-input{
+    width: 40%;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.apply{
+    color: rgb(234, 234, 236);
+    background-color: brown;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.apply:hover{
+            background-color: blue;
+            color: rgb(18, 216, 216);
 }
