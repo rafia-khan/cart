@@ -40,7 +40,47 @@ body{
     width: 40%;
     box-shadow: 4px 3px 15px black;
     text-align: center;
-}
+    float: left;
+} 
 .card{
     padding: 10px;
+}
+.card-title{
+    margin-left: 30px;
+    float: left;
+    padding:5px;
+}
+h3{
+    color: rgb(0, 47, 255);
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.price{
+    color: red;
+}
+ .icon{
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.5s ;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+  .icon:hover{
+    background-color: blue;
+    color: azure;
+    border-radius: 50%;
+    
+}
+ .input{
+    width: 45px;
+    background-color: rgb(173, 173, 241);
+    padding: 5px;
+    font-size: 1.4rem;
+    color: azure;
+    border-radius: 10%;
+}
+ .item{
+    font-size: 1.4rem;
 }
