@@ -22,7 +22,14 @@ function increament(incdec,prc,itm) {
         pro_amount.innerHTML = total_product
 
         var NewResult = total_product + parseInt(charge.innerHTML)
-        total_amount.innerHTML = NewResult
+        total_amount.innerHTML = NewResult;
+
+        var coupon_main_div = document.getElementById("coupon_main_div");
+
+
+        if (total_amount.innerHTML >=200) {
+            coupon_main_div.style.display = "block";
+        }
     }
 }
 
@@ -56,6 +63,9 @@ function decreament(incdec,prc,itm) {
 
 }
 
+var coupon_main_div = document.getElementById("coupon_main_div");
+coupon_main_div.style.display = "none";
+
 var applyBTN = document.getElementById("applyBTN");
 applyBTN.addEventListener('click', function () {
 
@@ -66,7 +76,8 @@ applyBTN.addEventListener('click', function () {
 
         var total = parseInt(total_amount.innerHTML) - 50;
         total_amount.innerHTML = total;
-        alert('congrats')
+        alert('congrats');
+        coupon_main_div.style.display = "none";
             
     }
     
